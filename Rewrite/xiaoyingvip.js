@@ -1,12 +1,12 @@
 /*
-Vivavideo unlock vip
+xiaoying unlock vip
 Script data comes from @hiepkimcdtk55
 Descriptions
 
 Surge4：
-http-response ^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
+http-response ^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xiaoyingvip.js
 QX：
-^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/vivavideo.js
+^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xiaoyingvip.js
 
 Surge & QX MITM = viva.v21xy.com
 */
