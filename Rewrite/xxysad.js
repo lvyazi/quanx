@@ -1,6 +1,8 @@
 /*
 小小影视去广告
-https:\/\/.*\/getGlobalData
+
+https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xxysad.js
+
 */
 
 
