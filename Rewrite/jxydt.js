@@ -1,6 +1,6 @@
 /*
 驾校一点通
-^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/jxydt.js
+^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jxydt.js
 MITM = vipapi.jxedt.com
 
 /*
