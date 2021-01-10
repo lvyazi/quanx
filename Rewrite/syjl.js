@@ -1,10 +1,10 @@
 /*
 Watermark sprite vip （Author: Alex0510）
 Surge4：
-http-response https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
+http-response https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/syjl.js
 
 QX：
-https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/syjl.js
+https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/syjl.js
 
 Surge & QX MITM = api1.dobenge.cn
 */
