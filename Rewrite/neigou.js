@@ -4,7 +4,7 @@ Quantumult X 脚本:
 
 [rewrite_local]
 # 内购
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body Gear.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/neigou.js
 
 [mitm]
 hostname = buy.itunes.apple.com,
