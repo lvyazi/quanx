@@ -1,11 +1,5 @@
 host, connectivitycheck.gstatic.com, proxy
 host, ug.baidu.com, reject
-host, firebaseinstallations.googleapis.com, reject
-host, firebaselogging-pa.googleapis.com, reject
-host-keyword, ocsp.int-x3.letsencrypt.orgocsp.apple.com, reject
-host-keyword, world-gen.g.aaplimg.com, reject
-host-keyword, mesu.apple.com, reject
-host-keyword, gdmf.apple.com, reject
 host, lncn.org, proxy
 host, www.bi525.com, direct
 host, boxjs.net, proxy
@@ -17,7 +11,6 @@ host, 60555a.com, direct
 host-keyword, jd, direct
 host, *.jddebug.com, direct
 host, diliktv.com, direct
-host-keyword, apple, proxy
 host, l.iwpoako.cn, direct
 host, l.iwpoako.cn, proxy
 host-keyword, telegram, proxy
