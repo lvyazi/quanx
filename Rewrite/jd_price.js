@@ -1,6 +1,6 @@
 /*
 京东历史比价 (by yichahucha)
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jd_price.js
 
 MITM = api.m.jd.com
  */
