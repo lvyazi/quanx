@@ -296,3 +296,9 @@ host, apt.dddjb.cn, direct
 host, apt.nuosike.cn, direct
 host, repo.acreson.cn, direct
 host, apt.cydiabc.top, direct
+#屏蔽ios更新
+host, ns.itunes.apple.com, reject
+host, appldnld.apple.com, reject
+host, mesu.apple.com, reject
+host, xp.apple.com, reject
+host, gdmf.apple.com, reject
