@@ -302,3 +302,4 @@ host, appldnld.apple.com, reject
 host, mesu.apple.com, reject
 host, xp.apple.com, reject
 host, gdmf.apple.com, reject
+host-keyword, gitee, proxy
