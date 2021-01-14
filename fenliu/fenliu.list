@@ -304,3 +304,5 @@ host, xp.apple.com, reject
 host, gdmf.apple.com, reject
 host-keyword, gitee, proxy
 host-keyword, biliapi, direct
+host-keyword, qq, direct
+host, lvyazi.xyz, direct
