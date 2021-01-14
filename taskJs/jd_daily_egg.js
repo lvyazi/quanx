@@ -9,7 +9,7 @@
 定时收鹅蛋,兑换金币
 先这样子吧
  */
-//0 */3 * * *
+//0 12 */3 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_daily_egg.js, tag=天天提鹅, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false
 const $ = new Env('天天提鹅');
 let cookiesArr = [], cookie = '';
 const JD_API_HOST = 'https://ms.jr.jd.com/gw/generic/uc/h5/m';
