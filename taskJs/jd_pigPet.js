@@ -11,7 +11,7 @@
 喂食
 每日签到
 完成分享任务得猪粮
-12 * * * *
+12 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_pigPet.js, tag=京东金融养猪猪, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdyz.png, enabled=true
  */
 
 const $ = new Env('金融养猪');
