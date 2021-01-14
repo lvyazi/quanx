@@ -1,3 +1,9 @@
+/*
+tesk
+
+12 10 8 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/tie_sign.js, tag=京东金融提额, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=false
+/*
+
 const cookieName ='京东提鹅'
 const cookieKey = 'chen_cookie_te'
 const chen = init()
