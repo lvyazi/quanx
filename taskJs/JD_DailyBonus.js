@@ -76,7 +76,7 @@ hostname = api.m.jd.com
 [task_local]
 # 京东多合一签到
 # 注意此为远程路径, 低版本用户请自行调整为本地路径.
-5 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png,enabled=true
+5 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png,enabled=true
 
 [rewrite_local]
 # 获取京东Cookie. 
