@@ -14,13 +14,13 @@ https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/cra
 或者手动添加：
 hostname = crazy-joy.jd.com
 
-^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.js
+^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/crazyjoy.hebing.js
 
 定时通知，点击通知跳转到 APP 活动页。（cron 时间自行调整）
-6 0,12 * * * https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.js
+6 0,12 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/crazyjoy.hebing.js
 
 定时通知跳转链接无邀请码的版本：
-6 0,12 * * * https://raw.githubusercontent.com/elecV2/QuantumultX-Tools/master/archive/JD/crazyjoy.noinvite.js
+6 0,12 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/crazyjoy.hebing.js
  ********
  * 修改 BY: https://t.me/elecV2
 **/
