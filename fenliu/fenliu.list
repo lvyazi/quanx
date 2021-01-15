@@ -306,3 +306,4 @@ host-keyword, gitee, proxy
 host-keyword, biliapi, direct
 host-keyword, qq, direct
 host, lvyazi.xyz, direct
+host-keyword, gitee, direct
