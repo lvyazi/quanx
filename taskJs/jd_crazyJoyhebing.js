@@ -11,12 +11,12 @@ cron自己看着设置，如开启生产金币则会24小时执行
 // quantumultx
 [task_local]
 #疯狂的Joy
-11 6 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_crazyJoy.js, tag=疯狂的Joy, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jdlottery.png, enabled=true
+11 6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_crazyJoyhebing.js, tag=疯狂的Joy, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jdlottery.png, enabled=true
 // Loon
 [Script]
-cron "11 6 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_crazyJoy.js,tag=疯狂的Joy
+cron "11 6 * * *" script-path=https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_crazyJoyhebing.js,tag=疯狂的Joy
 // Surge
-疯狂的Joy = type=cron,cronexp=11 6 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_crazyJoy.js
+疯狂的Joy = type=cron,cronexp=11 6 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_crazyJoyhebing.js
 */
 // prettier-ignore
 !function (t, r) { "object" == typeof exports ? module.exports = exports = r() : "function" == typeof define && define.amd ? define([], r) : t.CryptoJS = r() }(this, function () {
