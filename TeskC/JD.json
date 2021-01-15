@@ -30,6 +30,7 @@
         "11 1-23/5 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
         "0 1,18 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jx_factory_component.js, tag=京喜工厂plus, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png, enabled=true",
         "0 0 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/jd_blueCoin.js, tag=京小超兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true",
+        "5 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/JD_DailyBonus.js, tag=京东多合一签到, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png,enabled=true",
         "5 6-12/6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/shareCode.js, tag=互助码提交手动编辑js"
     ]
 }
