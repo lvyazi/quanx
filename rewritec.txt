@@ -1,0 +1,56 @@
+// @粗鄙之人
+// ==
+
+
+hostname = vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+
+
+# > 01 酷我vip
+^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/Kuwo.js
+
+# > 02 微信公众号去广告
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/WechatAd.js
+
+# > 03 哔哩哔哩开启1080P
+https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/bili1080p.js
+
+# > 04 抖音去广告
+^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/douyinAd.js
+
+^https?:\/\/.+?\.amemv\.com\/aweme\/v\d\/(feed|aweme\/post|follow\/feed|nearby\/feed|search\/item|general\/search\/single|hot\/search\/video\/list)\/ url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/douyinAd.js
+# > 05 京东比价
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jd_price.js
+
+# > 06 驾校一点通vip
+^https:\/\/vipapi\.jxedt\.com\/vip\/check url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jxydt.js
+
+# > 07 部分app内购破解
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/neigou.js
+
+# > 08 水印精灵vip
+https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/syjl.js
+
+# > 09 淘宝比价
+^http://.+/amdc/mobileDispatch url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/tb_price.js
+
+^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/tb_price.js
+
+# > 10 微博去广告
+^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/wb_launchAd.js
+
+^https?://m?api\.weibo\.c(n|om)/2/(statuses/(unread|extend|positives/get|(friends|video)(/|_)(mix)?timeline)|stories/(video_stream|home_list)|(groups|fangle)/timeline|profile/statuses|comments/build_comments|photo/recommend_list|service/picfeed|searchall|cardlist|page|!/photos/pic_recommend_status|video/tiny_stream_video_list|photo/info) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/wb_ad.js
+
+# > 011 小影视频vip
+^https:\/\/viva\.v21xy\.com\/api\/rest\/u\/vip url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xiaoyingvip.js
+
+# > 012 小小影视去广告
+https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xxysad.js
+
+# > 013 中青看点极速版自动阅读获取body
+^https:\/\/ios\.baertt\.com\/v5\/article\/complete url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/zqgetbody.js
+
+# > 014 获取jd cookie
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/JD_DailyBonus.js
+
+# > 015 自动合并joy
+^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/taskJs/crazyjoy.hebing.js
