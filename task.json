@@ -34,6 +34,7 @@
         "10 7 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_crazy_joy_coin.js, tag=crazyJoy挂机合并, enabled=true",
         "55 23 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_unbind.js, tag=注销京东会员卡, enabled=true",
         "6 0,12 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/crazyjoy.hebing.js, tag=joy合并配合重写详情看js文件,建议使用crazjoy挂机合并",
+        "0 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_xxl.js, tag=东东爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_xxl.jpg, enabled=true",
         "5 6-12/6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/shareCode.js, tag=互助码提交手动编辑js"
     ]
 }
