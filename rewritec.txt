@@ -2,20 +2,9 @@
 // ==
 
 
-hostname = vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+hostname = veishop.iboxpay.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
 # > 00 去广告部分
-.+\/\/googleads\.g\.doubleclick\.net.+ url reject
-.+\/\/nj\.t\.bcsp2p\.baidu\.com.+ url reject
-.+\/\/rp\.hpplay\.cn.+ url reject
-.+\/\/v2\.gdt\.qq\.com.+ url reject
-.+\/\/sdk\.e\.qq\.com.+ url reject
-.+\/\/snssdk\.com.+ url reject
-.+\/\/ns\.itunes\.apple\.com.+ url reject
-.+\/\/appldnld\.apple\.com.+ url reject
-.+\/\/mesu\.apple\.com.+ url reject
-.+\/\/xp\.apple\.com.+ url reject
-.+\/\/gdmf\.apple\.com url reject
 
 # > 01 酷我vip
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/Kuwo.js
@@ -61,3 +50,5 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 
 # > 014 自动合并joy
 ^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/crazyjoy.hebing.js
+# > 015 笑谱
+https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video\.json url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/xp.js
