@@ -9,7 +9,7 @@
 ============Quantumultx===============
 [task_local]
 #京东炸年兽🧨
-0 8 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian.js, tag=京东炸年兽🧨, enabled=true
+0 8 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_nian.js, tag=京东炸年兽🧨, enabled=true
 
 ================Loon==============
 [Script]
