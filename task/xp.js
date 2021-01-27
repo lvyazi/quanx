@@ -16,7 +16,7 @@ boxjs：https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/ZhiYi-N.
 hostname = veishop.iboxpay.com
 #圈x
 [rewrite local]
-https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video\.json url script-request-body https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/xp.js
+*/2 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/xp.js, tag=笑谱, img-url=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/img/xp.jpg, enabled=true
 #loon
 http-request https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video\.json script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/xp.js, requires-body=true, timeout=10, tag=笑谱
 #surge
