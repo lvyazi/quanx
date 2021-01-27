@@ -8,7 +8,7 @@
 ============Quantumultx===============
 [task_local]
 #京东手机年终奖
-30 9 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_festival.js, tag=京东手机年终奖, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_festival2.jpg, enabled=true
+30 9 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jdsj.js, tag=京东手机年终奖, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_festival2.jpg, enabled=true
 
 ================Loon==============
 [Script]
