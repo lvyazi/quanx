@@ -36,6 +36,7 @@
         "6 0,12 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/crazyjoy.hebing.js, tag=joy合并配合重写详情看js文件,建议使用crazjoy挂机合并",
         "0 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_xxl.js, tag=东东爱消除, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_xxl.jpg, enabled=true",
         "0 8 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_nian.js, tag=京东炸年兽🧨, enabled=true",
+        "0,1 19-21/1 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jdxb.js, tag=直播间红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain.jpg, enabled=true",
         "5 6-12/6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/shareCode.js, tag=互助码提交手动编辑js"
     ]
 }
