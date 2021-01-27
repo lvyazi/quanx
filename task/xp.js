@@ -179,7 +179,7 @@ async function control(){
    }else{
       await watch_video();
 }
-   if(no < 50 && hour >= 8 && hour < 23 && $.getval("live") == 1){
+   if(no < 60 && hour >= 8 && hour < 23 && $.getval("live") == 1){
        await watch_livevideo();
 }
 }
@@ -307,7 +307,7 @@ return new Promise((resolve, reject) => {
     url: `https://veishop.iboxpay.com/nf_gateway/nf_customer_activity/day_cash/v1/give_redbag_by_live.json`,
     headers: JSON.parse(headers),
     //timeout: 60000,
-    body: `{"actId":"252","liveId":"${liveids}"}`
+    body: `{"actId":"283","liveId":"${liveids}"}`
 }
    $.post(watch_livevideourl,(error, response, data) =>{
      const result = JSON.parse(data)
