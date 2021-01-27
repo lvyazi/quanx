@@ -2,7 +2,7 @@
 // ==
 
 
-hostname = draw.jdfcloud.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+hostname = draw.jdfcloud.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
 # > 00 去广告部分
 .+oimageb\w+\.ydstatic\.com.+ url reject
@@ -52,7 +52,7 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/crazyjoy.hebing.js
 # > 015 笑谱
 
-https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video\.json url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xp.js
+https:\/\/veishop\.iboxpay\.com\/nf_gateway\/nf_customer_activity\/day_cash\/v1\/give_gold_coin_by_video\.json url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xp.js
 
 # > 016宠旺旺获取token
 ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_joy_run.js
