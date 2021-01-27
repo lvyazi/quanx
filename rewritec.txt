@@ -2,7 +2,7 @@
 // ==
 
 
-hostname = draw.jdfcloud.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+hostname = draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
 # > 00 去广告部分
 .+oimageb\w+\.ydstatic\.com.+ url reject
@@ -60,3 +60,7 @@ https:\/\/veishop\.iboxpay\.com\/* url script-request-header https://raw.githubu
 
 # > 017京东读书cookie
 ^https:\/\/jdread-api\.jd\.com\/* url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jddsSign.js
+
+# > 018京喜农场cookie
+^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jx_nc.cookie.js
+
