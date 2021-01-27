@@ -19,9 +19,9 @@ surge:本地
 
 
 圈x:本地
-^https:\/\/jdread-api\.jd\.com\/* url script-request-header https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js
+^https:\/\/jdread-api\.jd\.com\/* url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jddsSign.js
 
-定时 0 10 0 * * * https://raw.githubusercontent.com/XidNDD/2020scripts/master/jddsSign.js, tag=京东读书签到, enabled=true
+定时 0 10 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jddsSign.js, tag=京东读书签到, enabled=true
 
 
 
