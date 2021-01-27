@@ -7,7 +7,7 @@
 ============Quantumultx===============
 [task_local]
 #年货直播红包雨
-0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain_nian.jpg, enabled=true
+0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jdnhxb.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain_nian.jpg, enabled=true
 
 ================Loon==============
 [Script]
