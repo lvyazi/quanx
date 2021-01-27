@@ -8,7 +8,7 @@
 ============Quantumultx===============
 [task_local]
 #源头好物红包
-0 0 * * * https://raw.githubusercontent.com/shylocks/Loon/main/jd_coupon.js, tag=源头好物红包, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_coupon.jpg, enabled=true
+0 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jdythh.js, tag=源头好物红包, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_coupon.jpg, enabled=true
 
 ================Loon==============
 [Script]
