@@ -44,7 +44,7 @@ surge:本地
 =========================================
 圈x:本地
 签到获取ck
-^https:\/\/veishop\.iboxpay\.com\/* url script-request-body xiaopusign.js
+^https:\/\/veishop\.iboxpay\.com\/* url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xiaopusign.js
 
  
 
