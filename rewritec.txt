@@ -64,3 +64,10 @@ https:\/\/veishop\.iboxpay\.com\/* url script-request-header https://raw.githubu
 # > 018京喜农场cookie
 ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/jx_nc.cookie.js
 
+# > 019 火山视频 
+https://(\w+-\w+||\w+).snssdk.com/luckycat/hotsoon/v1/task/done/daily_read_\d+m? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/hotsoon.js
+
+https://(\w+-\w+||\w+).snssdk.com/luckycat/hotsoon/v1/task/done/draw_excitation_ad? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/hotsoon.js
+
+https://(\w+-\w+||\w+).snssdk.com/luckycat/hotsoon/v1/task/sign_in_detail? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/hotsoon.js
+
