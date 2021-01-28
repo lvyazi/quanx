@@ -20,11 +20,11 @@ hostname = api5-normal-c-*.amemv.com
 
 #圈x
 [rewrite local]
-https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
+https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/sign_in/detail? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/dyjsb.js
 
-https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
+https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/dyjsb.js
 
-https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js
+https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/walk/step_submit? - script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/dyjsb.js
 
 #loon
 http-request ^https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/sign_in/detail? script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/dyjsb.js, requires-body=true, timeout=10, tag=抖音极速版sign
