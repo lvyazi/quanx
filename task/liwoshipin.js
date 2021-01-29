@@ -3,7 +3,7 @@
  * [Script]
  *
  *梨涡签到领现金
- *cron "7 0 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,tag=梨涡签到领现金
+ * 7 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/liwoshipin.js, tag=梨涡签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/liwo.png, enabled=true
  *http-request https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js, requires-body=true, timeout=10, tag=梨涡签到领现金Cookie
  *
  *[MITM]
