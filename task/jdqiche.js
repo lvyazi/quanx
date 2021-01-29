@@ -8,7 +8,7 @@
 ============Quantumultx===============
 [task_local]
 #京东汽车
-10 7 * * * https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true
+10 7 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jdqiche.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true
 
 ================Loon==============
 [Script]
