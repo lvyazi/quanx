@@ -13,7 +13,7 @@
 ============Quantumultx===============
 [task_local]
 #京东神仙书院答题
-10 8 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_dati.js, tag=京东神仙书院答题, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
+10 8 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/shuyuandati.js, tag=京东神仙书院答题, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true
 ================Loon==============
 [Script]
 cron "10 8 * * *" script-path=https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_dati.js,tag=京东神仙书院答题
