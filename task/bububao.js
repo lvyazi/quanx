@@ -7,10 +7,10 @@ adwktt
 圈x
 [rewrite_local]
 #步步宝
-https://bububao.duoshoutuan.com/user/profile url script-request-header https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js
+https://bububao.duoshoutuan.com/user/profile url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/bububao.js
 
 [task_local]
-0 8-23/2 * * * https://raw.githubusercontent.com/adwktt/adwktt/master/BBB.js, tag=步步宝, 
+0 8-23/2 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/bububao.js, tag=步步宝, 
 
 loon
 [Script]
