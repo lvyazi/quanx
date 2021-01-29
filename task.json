@@ -57,6 +57,7 @@
         "5 1 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/bigfun.js, tag=bigfun签到, img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z003.png, enabled=true",
         "7 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/liwoshipin.js, tag=梨涡签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/task/master/liwo.png, enabled=true",
         "0 0 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/yijirupin.js, tag=伊利乳品, img-url=https://raw.githubusercontent.com/id77/QuantumultX/master/icon/yiLi.png, enabled=true",
+        "10 7 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jdqiche.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true",
         "5 6-12/6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/shareCode.js, tag=互助码提交手动编辑js"
     ]
 }
