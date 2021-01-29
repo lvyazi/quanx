@@ -2,7 +2,7 @@
 // ==
 
 
-hostname = api.bigfun.cn,uploads2.gifshow.com,huodong.fanli.com,passport.fanli.com,gw.fanli.com,app.kxp.com,bububao.duoshoutuan.com,api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+hostname = club.yili.com,api.bigfun.cn,uploads2.gifshow.com,huodong.fanli.com,passport.fanli.com,gw.fanli.com,app.kxp.com,bububao.duoshoutuan.com,api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
 # > 00 去广告部分
 .+oimageb\w+\.ydstatic\.com.+ url reject
@@ -102,3 +102,5 @@ http:\/\/uploads2\.gifshow\.com\/rest\/n\/system\/speed url script-request-heade
 ^https:\/\/api\.bigfun\.cn\/webview\/iphone? url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/bigfun.js
 # > 026 梨涡视频
 https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/7dayscookie.js
+# > 027 伊利乳品
+https:\/\/club\.yili\.com\/MALLIFChe\/MCSWSIAPI\.asmx\/Call url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/yiLi.cookie.js
