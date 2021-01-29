@@ -2,7 +2,7 @@
 // ==
 
 
-hostname = api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+hostname = bububao.duoshoutuan.com,api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
 # > 00 去广告部分
 .+oimageb\w+\.ydstatic\.com.+ url reject
@@ -77,3 +77,5 @@ https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/sign_in/detail? url s
 https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/done/read? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/dyjsb.js
 
 https://api5-normal-c-\w+.amemv.com/luckycat/aweme/v1/task/walk/step_submit? url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/dyjsb.js
+# > 021 步步宝
+https://bububao.duoshoutuan.com/user/profile url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/bububao.js
