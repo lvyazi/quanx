@@ -46,10 +46,10 @@ hostname=huodong.fanli.com,passport.fanli.com,gw.fanli.com,
 
 ############## 圈x
 #返利网获取header
-https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-header https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js   
+https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/fanliwang.js   
 
 #返利网获取body
-https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-body https://raw.githubusercontent.com/ziye12/JavaScript/main/Task/flw.js   
+https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/fanliwang.js   
 
 ############## loon
 
