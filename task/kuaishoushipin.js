@@ -40,7 +40,7 @@ QX 1.0.7+ :
 
 [rewrite_local]
 
-http:\/\/uploads2\.gifshow\.com\/rest\/n\/system\/speed url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
+http:\/\/uploads2\.gifshow\.com\/rest\/n\/system\/speed url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/kuaishoushipin.js
 
 ~~~~~~~~~~~~~~~~
 
