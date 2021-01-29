@@ -15,7 +15,16 @@
 
 ;视频body获取
 https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/GetBody.conf, tag=Getbody_CONGHUA, update-interval=86400, opt-parser=false, enabled=true
+https:\/\/app\.kxp\.com\/video\/v1\/video\/complete url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/conghuabody.js
 
+https:\/\/app\.kxp\.com\/video\/v1\/video\/share url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/conghuabody.js
+
+
+https:\/\/app\.kxp\.com\/task\/v1\/task_center\/data url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/conghuabody.js
+
+https:\/\/app\.kxp\.com\/task\/v1\/task_center\/red url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/conghuabody.js
+
+https:\/\/app\.kxp\.com\/task\/v1\/task_center\/share_video_reward url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/conghuabody.js
 ## 2.定时任务：
 到配置文件找到[task_local]贴代码：
 cron设置30min循环
