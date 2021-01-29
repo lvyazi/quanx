@@ -15,11 +15,11 @@ TG电报群: https://t.me/hahaha8028
 圈X配置如下，其他软件自行测试
 [task_local]
 #bigfun
-5 1 * * * https://raw.githubusercontent.com/age174/-/main/bigfun.js, tag=bigfun签到, img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z003.png, enabled=true
+5 1 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/bigfun.js, tag=bigfun签到, img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z003.png, enabled=true
 
 [rewrite_local]
 #获取bigfunCookie
-^https:\/\/api\.bigfun\.cn\/webview\/iphone? url script-request-body https://raw.githubusercontent.com/age174/-/main/bigfun.js
+^https:\/\/api\.bigfun\.cn\/webview\/iphone? url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/bigfun.js
 
 #loon
 ^https:\/\/api\.bigfun\.cn\/webview\/iphone? script-path=https://raw.githubusercontent.com/age174/-/main/bigfun.js, requires-body=true, timeout=10, tag=bigfun签到
