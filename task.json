@@ -52,6 +52,7 @@
         "*/5 9-10 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/xiaopuzhibo.js, tag=笑谱直播, img-url=https://qxzy.top/rules/QuantumultX/img/xp.png, enabled=true",
         "0,30 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/bububao.js, tag=步步宝,, img-url=https://qxzy.top/rules/QuantumultX/img/bbb.png, enabled=true",
         "30 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/chonghuashipin.js, tag=葱花视频, enabled=true",
+        "0 12,23 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/fanliwang.js, tag=返利网, img-url=https://qxzy.top/rules/QuantumultX/img/flw.png, enabled=true",
         "5 6-12/6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/shareCode.js, tag=互助码提交手动编辑js"
     ]
 }
