@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/GetBody.conf,
 到配置文件找到[task_local]贴代码：
 cron设置30min循环
 
-30 * * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/CONGHUA/chonghua.js, tag=葱花视频, enabled=true
+30 * * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/chonghuashipin.js, tag=葱花视频, enabled=true
 
 ## 3.食用方法：
 
