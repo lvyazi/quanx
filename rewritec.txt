@@ -2,7 +2,7 @@
 // ==
 
 
-hostname = huodong.fanli.com,passport.fanli.com,gw.fanli.com,app.kxp.com,bububao.duoshoutuan.com,api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
+hostname = uploads2.gifshow.com,huodong.fanli.com,passport.fanli.com,gw.fanli.com,app.kxp.com,bububao.duoshoutuan.com,api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
 # > 00 去广告部分
 .+oimageb\w+\.ydstatic\.com.+ url reject
@@ -96,3 +96,5 @@ https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) u
 
 #返利网获取body
 https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/fanliwang.js
+# >  024 快手极速版
+http:\/\/uploads2\.gifshow\.com\/rest\/n\/system\/speed url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/kuaishoushipin.js
