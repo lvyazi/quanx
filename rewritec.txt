@@ -100,3 +100,5 @@ https:\/\/(huodong\.fanli\.com\/*||passport\.fanli\.com\/*||gw\.fanli\.com\/*) u
 http:\/\/uploads2\.gifshow\.com\/rest\/n\/system\/speed url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/kuaishoushipin.js
 # > 025 获取bigfunCookie
 ^https:\/\/api\.bigfun\.cn\/webview\/iphone? url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/bigfun.js
+# > 026 梨涡视频
+https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/7dayscookie.js
