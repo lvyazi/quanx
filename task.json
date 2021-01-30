@@ -66,6 +66,6 @@
         "10 8,21 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/jibianpao.js, tag=集鞭炮赢京豆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/nianshouar.js, tag=京东炸年兽AR, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_nian.png, enabled=true",
         "0 */2 0-23 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/zhongqing.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/youth.png, enabled=true",
-        "5 6-12/6 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/shareCode.js, tag=互助码提交手动编辑js"
+        "20 * 0/1 1,8,16,24 * ? https://raw.githubusercontent.com/lvyazi/quanx/main/task/huzhuma.js, tag=获取并提交助力码, img-url=https://raw.githubusercontent.com/yogayyy/task/master/huzhucode.png, enabled=true"
     ]
 }
