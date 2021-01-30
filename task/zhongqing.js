@@ -49,6 +49,8 @@ QX 1.0. 7+ :
 [task_local]
 0 9 * * * youth.js
 
+0 */2 0-23 * * * https://raw.githubusercontent.com/lvyazi/quanx/main/task/zhongqing.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/youth.png, enabled=true
+
 [rewrite_local]
 https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) url script-request-header youth.js
 
