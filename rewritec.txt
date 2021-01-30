@@ -43,7 +43,11 @@ https:\/\/api1\.dobenge\.cn\/api\/user\/getuserinfo url script-response-body htt
 https:\/\/.*\..*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/xxysad.js
 
 # > 012 中青看点极速版自动阅读获取body
-^https:\/\/ios\.baertt\.com\/v5\/article\/complete.+ url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/zqgetbody.js
+^https:\/\/ios\.baertt\.com\/v5\/article\/comp.+ url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/zqgetbody.js
+^https:\/\/ios\.baertt\.com\/v5\/user\/app.+ url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/youth.js
+^https:\/\/ios\.baertt\.com\/v5\/article\/red.+ url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/youth.js
+^htt.+\/\/ios\.baertt\.com\/v5\/article\/co.+ url script-request-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/youth.js
+^https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/youth.js
 
 # > 013 获取jd cookie
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/JD_DailyBonus.js
