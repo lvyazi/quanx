@@ -526,8 +526,6 @@ host-suffix, youku.com, direct
 host-suffix, xiami.com, direct
 host-suffix, xiami.net, direct
 # > Baidu
-host-suffix, baidu.com, direct
-host-suffix, baidubcr.com, direct
 host-suffix, bdstatic.com, direct
 host-suffix, yunjiasu-cdn.net, direct
 # > bilibili
@@ -644,8 +642,6 @@ host-suffix, myapp.com, direct
 host-suffix, myqcloud.com, direct
 host-suffix, qqmail.com, direct
 host-suffix, servicewechat.com, direct
-host-suffix, tencent.com, direct
-host-suffix, tencent-cloud.net, direct
 host-suffix, tenpay.com, direct
 host, file-igamecj.akamaized.net, direct
 # > ulike
