@@ -56,8 +56,6 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https:\/\/crazy-joy\.jd\.com url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/crazyjoy.hebing.js
 # > 015 笑谱
 
-https:\/\/veishop\.iboxpay\.com\/* url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/iboxpay.js
-
 # > 016宠旺旺获取token
 ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_joy_run.js
 ^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= url script-request-header https://raw.githubusercontent.com/lvyazi/quanx/main/task/jd_joy_run.js
