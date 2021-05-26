@@ -1,0 +1,161 @@
+<?xml version="1" encoding="utf-8"?>
+<config>
+	<DEFAULT>
+		<file type=3 local="files/comm.dat" name="comm.dat" hash_type=1 probability="100" scale="1">
+			<A hash="0AEE5282"/>
+			<B hash="F55C2156"/>
+		</file>
+	</DEFAULT>
+	<GAME hash_type=1 hash="32602776">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="68E6D796"/>
+			<B hash="36BC2A81"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="355B3590"/>
+			<B hash="9B711ABD"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="A8481F19">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="88EF835E"/>
+			<B hash="115F0CFD"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="002259AF"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="D7DAD608">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="16A90812"/>
+			<B hash="AE1C84A8"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="5F1E05E7"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="BC636B46">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="D0CA7719"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="64F25FC9">
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="5F1E05E7"/>
+		</file>
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="32788084"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="A51C3EF4">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="E49AF4B1"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="D3012C8F">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="CA34D6ED"/>
+			<B hash="EF6869F3"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="BA7F4C80">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="6E2F9126"/>
+			<B hash="0B8B1F6B"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="5F1E05E7"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="DB7BE971">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="ED60B2A4"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="500DAC5F">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="F64E251B"/>
+			<B hash="BFC4A1F2"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="1C8710C6"/>
+			<B hash="5BB1018B"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="95D6CB39">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="2AD6FF0F"/>
+			<B hash="F7FEDC21"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="3688A31C"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="E17FF74E">
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="1C8710C6"/>
+		</file>
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="1EEE921C"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="0211F467">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="DFAE9EEF"/>
+			<B hash="9701EE43"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="D5BB16D4">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="F44BE5D8"/>
+			<B hash="C1A0E226"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="B649EBCD">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="F9696FF3"/>
+			<B hash="40614640"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="002259AF"/>
+			<B hash="3688A31C"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="1C786A62">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="B0CB3A4A"/>
+			<B hash="C9AB4EDF"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="D2248A8F">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="F4DCED94"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="7A0392C7">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="B5589C60"/>
+			<B hash="7AC74F18"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="BCAF4C68">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="2B2E23B3"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="4CD79540">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="3D0158D4"/>
+			<B hash="CB2FA99F"/>
+		</file>
+		<file type=3 local="files/tssmua.zip" name="tssmua.zip" hash_type=1 probability="100" scale="1">
+			<A hash="1C8710C6"/>
+		</file>
+	</GAME>
+	<GAME hash_type=1 hash="452D7225">
+		<file type=2 local="files/mrpcs.data" name="mrpcs.data" hash_type=1 probability="100" scale="1">
+			<A hash="C66B8806"/>
+			<B hash="C8FFE57F"/>
+		</file>
+	</GAME>
+</config>
