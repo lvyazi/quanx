@@ -4,8 +4,7 @@
 
 hostname = club.yili.com,api.bigfun.cn,uploads2.gifshow.com,huodong.fanli.com,passport.fanli.com,gw.fanli.com,app.kxp.com,bububao.duoshoutuan.com,api5-normal-c-*.amemv.com,*.snssdk.com,draw.jdfcloud.com,wq.jd.com,jdread-api.jd.com,veishop.iboxpay.com,*.ydstatic.com,vip1.kuwo.cn,mp.wx.qq.com,api.bilibili.com,*.amemv.com,api.m.jd.com,vipapi.jxedt.com,buy.itunes.apple.com,api1.dobenge.cn,viva.v21xy.com,  *.youth.cn, ios.baertt.com,
 
-# > 00 去广告部分
-.+oimageb\w+\.ydstatic\.com.+ url reject
+# > 00
 # > 01 酷我vip
 ^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice) url script-response-body https://raw.githubusercontent.com/lvyazi/quanx/main/Rewrite/Kuwo.js
 
