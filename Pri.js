@@ -21,6 +21,6 @@ var body = $request.body;
 
 
 
-body=body.replace(/root":\d,/g,'root":0,');
+body=body.replace(/root":\d,/g,'root":1,');
 
 $done({body});
