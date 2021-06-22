@@ -15,12 +15,12 @@ MITM = priv.igame.qq.com
 
 */
 
-var body = $response.body;
+
+
+var body = $request.body;
 
 
 
-
-body=body.replace(/utype":\d,/g,'utype":0,').replace(/result":(.+?),/g,'result":200041002,').replace(/gid":(.+?)/g,'gid":411');
-
+body=body.replace(/root":\d,/g,'root":0,');
 
 $done({body});
