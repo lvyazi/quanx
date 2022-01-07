@@ -1,76 +1,84 @@
 <?xml version="1" encoding="utf-8"?>
 <config>
-	<game ver="3195" code_size="51036160">
-		<file name="mrpcs.data" gray="100" a="E49AF4B1" b="00000000"/>
+	<game ver="0.4.0" code_size="57049088" so="libUE4.so" crc="0xf468e9a2">
+		<file name="mrpcs.data" gray="100" a="6C1E75F0" b="356AEAC6"/>
 	</game>
-	<game ver="3730" code_size="51544064">
-		<file name="mrpcs.data" gray="100" a="DFAE9EEF" b="9701EE43"/>
+	<game ver="0.5.1" code_size="58044416" so="libUE4.so" crc="0x08f49fe2">
+		<file name="mrpcs.data" gray="100" a="53E6A12E" b="27F7382E"/>
 	</game>
-	<game ver="4200" code_size="52002816">
-		<file name="mrpcs.data" gray="100" a="B0CB3A4A" b="C9AB4EDF"/>
+	<game ver="0.6.1" code_size="58617856" so="libUE4.so" crc="0x20b5cb3f">
+		<file name="mrpcs.data" gray="100" a="5F17FA35" b="1B77F061"/>
 	</game>
-	<game ver="4762" code_size="53641216">
-		<file name="mrpcs.data" gray="100" a="2B2E23B3" b="00000000"/>
+	<game ver="0.8.6" code_size="61095936" so="libUE4.so" crc="0xd1b3eb08">
+		<file name="mrpcs.data" gray="100" a="9D22167D" b="00000000"/>
 	</game>
-	<game ver="5351" code_size="54771712">
-		<file name="mrpcs.data" gray="100" a="B5589C60" b="7AC74F18"/>
+	<game ver="0.7.1" code_size="59510784" so="libUE4.so" crc="0x59b7d560">
+		<file name="mrpcs.data" gray="100" a="09C2600E" b="5E8AADFA"/>
 	</game>
-	<game ver="5630" code_size="54886400">
-		<file name="mrpcs.data" gray="100" a="F44BE5D8" b="C1A0E226"/>
+	<game ver="0.9.5" code_size="61259776" so="libUE4.so" crc="0x95fab6f5">
+		<file name="mrpcs.data" gray="100" a="EB35054C" b="4385A0FE"/>
 	</game>
-	<game ver="6301" code_size="56229888">
-		<file name="mrpcs.data" gray="100" a="CA34D6ED" b="EF6869F3"/>
+	<game ver="0.10.9" code_size="63025152" so="libUE4.so" crc="0x91ccafc8">
+		<file name="mrpcs.data" gray="100" a="DB3C5B3F" b="5323BF82"/>
 	</game>
-	<game ver="6500" code_size="56459264">
-		<file name="mrpcs.data" gray="100" a="C66B8806" b="C8FFE57F"/>
+	<game ver="0.11.3" code_size="63172608" so="libUE4.so" crc="0x529c057e">
+		<file name="mrpcs.data" gray="100" a="E35E76A3" b="7FEE77CD"/>
 	</game>
-	<game ver="7300" code_size="57180160">
-		<file name="mrpcs.data" gray="100" a="D0CA7719" b="00000000"/>
+	<game ver="0.12.5" code_size="63827968" so="libUE4.so" crc="0x63ee7759">
+		<file name="mrpcs.data" gray="100" a="CEDA490B" b="202562B1"/>
 	</game>
-	<game ver="7700" code_size="57982976">
-		<file name="mrpcs.data" gray="100" a="ED60B2A4" b="00000000"/>
+	<game ver="0.13.5" code_size="64958464" so="libUE4.so" crc="0xdc3773e5">
+		<file name="mrpcs.data" gray="100" a="B93B431A" b="3E436856"/>
 	</game>
-	<game ver="7720" code_size="58753024">
-		<file name="mrpcs.data" gray="100" a="F4DCED94" b="00000000"/>
+	<game ver="0.14.5" code_size="65662976" so="libUE4.so" crc="0xe5d33890">
+		<file name="mrpcs.data" gray="100" a="999C854D" b="75E496B6"/>
 	</game>
-	<game ver="8000" code_size="69206016">
-		<file name="tssmua.zip" gray="100" a="5F1E05E7" b="00000000"/>
-		<file name="mrpcs.data" gray="100" a="32788084" b="00000000"/>
+	<game ver="1.1.16" code_size="71630848" so="libUE4.so" crc="0x06ca2be6">
+		<file name="mrpcs.data" gray="100" a="C40D36F9" b="A8881439"/>
 	</game>
-	<game ver="8060" code_size="70418432">
-		<file name="mrpcs.data" gray="100" a="16A90812" b="AE1C84A8"/>
-		<file name="tssmua.zip" gray="100" a="5F1E05E7" b="00000000"/>
+	<game ver="1.2.9" code_size="74137600" so="libUE4.so" crc="0x28449a64">
+		<file name="mrpcs.data" gray="100" a="04496B94" b="F783AD16"/>
 	</game>
-	<game ver="8151" code_size="73138176">
-		<file name="mrpcs.data" gray="100" a="6E2F9126" b="0B8B1F6B"/>
-		<file name="tssmua.zip" gray="100" a="5F1E05E7" b="00000000"/>
+	<game ver="1.3.6" code_size="76509184" so="libUE4.so" crc="0x1f827c31">
+		<file name="mrpcs.data" gray="100" a="A39DB3D8" b="17C5E8C0"/>
 	</game>
-	<game ver="8230" code_size="75350016">
-		<file name="mrpcs.data" gray="100" a="2AD6FF0F" b="F7FEDC21"/>
-		<file name="tssmua.zip" gray="100" a="3688A31C" b="00000000"/>
+	<game ver="1.4.6" code_size="79646720" so="libUE4.so" crc="0xa51b53fb">
+		<file name="mrpcs.data" gray="100" a="E23EA08B" b="AA6A34B8"/>
 	</game>
-	<game ver="8351" code_size="86097920">
-		<file name="mrpcs.data" gray="100" a="F9696FF3" b="40614640"/>
-		<file name="tssmua.zip" gray="100" a="002259AF" b="3688A31C"/>
+	<game ver="1.5.8" code_size="82821120" so="libUE4.so" crc="0xb610324e">
+		<file name="mrpcs.data" gray="100" a="E896DD30" b="13352CF6"/>
 	</game>
-	<game ver="8500" code_size="89587712">
-		<file name="mrpcs.data" gray="100" a="88EF835E" b="115F0CFD"/>
-		<file name="tssmua.zip" gray="100" a="002259AF" b="00000000"/>
+	<game ver="1.7.7" code_size="85835776" so="libUE4.so" crc="0x8a19ead2">
+		<file name="mrpcs.data" gray="1" a="3EF58AD2" b="A7E9BDCC"/>
 	</game>
-	<game ver="8630" code_size="91275264">
-		<file name="mrpcs.data" gray="100" a="68E6D796" b="36BC2A81"/>
-		<file name="tssmua.zip" gray="100" a="355B3590" b="9B711ABD"/>
+	<game ver="1.8.10" code_size="88510464" so="libUE4.so" crc="0xc5530c20">
+		<file name="mrpcs.data" gray="100" a="D3A99685" b="B0A9C52E"/>
 	</game>
-	<game ver="8800" code_size="94552064">
-		<file name="mrpcs.data" gray="100" a="F64E251B" b="BFC4A1F2"/>
-		<file name="tssmua.zip" gray="100" a="1C8710C6" b="5BB1018B"/>
+	<game ver="1.9.10" code_size="92266496" so="libUE4.so" crc="0xef3b6322">
+		<file name="mrpcs.data" gray="100" a="02E53F71" b="1E8E6E42"/>
 	</game>
-	<game ver="9005" code_size="100188160">
-		<file name="mrpcs.data" gray="100" a="3D0158D4" b="CB2FA99F"/>
-		<file name="tssmua.zip" gray="100" a="1C8710C6" b="00000000"/>
+	<game ver="1.10.12" code_size="108534316" so="libUE4.so" crc="0xb5a72679">
+		<file name="mrpcs.data" gray="100" a="5ED97A68" b="7FF7FED6"/>
 	</game>
-	<game ver="9151" code_size="115621888">
-		<file name="tssmua.zip" gray="100" a="1C8710C6" b="00000000"/>
-		<file name="mrpcs.data" gray="100" a="1EEE921C" b="00000000"/>
+	<game ver="1.11.13" code_size="101584896" so="libUE4.so" crc="0x2071deff">
+		<file name="mrpcs.data" gray="100" a="A092FEB4" b="C69856EF"/>
+	</game>
+	<game ver="1.14.10" code_size="108208128" so="libUE4.so" crc="0x100abfaf">
+		<file name="mrpcs.data" gray="100" a="16D28317" b="50717881"/>
+	</game>
+	<game ver="1.13.12" code_size="115341868" so="libUE4.so" crc="0xd8f606cd">
+		<file name="mrpcs.data" gray="100" a="991635A3" b="9B6BA649"/>
+	</game>
+	<game ver="1.15.12" code_size="127961644" so="libUE4.so" crc="0xb8aa1a43">
+		<file name="mrpcs.data" gray="100" a="88456B71" b="EFBD15CC"/>
+	</game>
+	<game ver="1.15.13" code_size="176302856" so="libUE4.so" crc="0x0c3c31cb">
+		<file name="mrpcs.data" gray="100" a="65C038A8" b="92C59248"/>
+	</game>
+	<game ver="1.16.12" code_size="129190444" so="libUE4.so" crc="0x8ce8bdab">
+		<file name="mrpcs.data" gray="100" a="7A54F38B" b="6DF76C7E"/>
+	</game>
+	<game ver="1.16.13" code_size="177941256" so="libUE4.so" crc="0x199e3c47">
+		<file name="mrpcs.data" gray="10" a="31117E05" b="82A892D7"/>
 	</game>
 </config>
